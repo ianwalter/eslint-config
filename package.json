@@ -1,10 +1,30 @@
 {
   "name": "@ianwalter/eslint-config",
+  "description": "Ian's ESLint configuration",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "preset"
+  ],
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ianwalter/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ianwalter/eslint-config#readme",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js"
   },
+  "files": [
+    "index.js",
+    ".eslintrc.json"
+  ],
   "dependencies": {
     "eslint": "^5.14.1",
     "eslint-config-standard": "^12.0.0",
