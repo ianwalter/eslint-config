@@ -3,6 +3,25 @@
 
 [![npm page][npmImage]][npmUrl]
 
+## Installation
+
+```console
+yarn add @ianwalter/eslint-config --dev
+```
+
+## Usage
+
+In `package.json`:
+
+```js
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter/eslint-config"
+    ]
+  }
+```
+
 ## License
 
 Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
