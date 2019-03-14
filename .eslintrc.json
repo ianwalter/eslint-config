@@ -4,6 +4,16 @@
     "standard"
   ],
   "rules": {
-    "no-console": 0
+    "no-console": 0,
+    "max-len": [
+      "error",
+      {
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ]
   }
 }
