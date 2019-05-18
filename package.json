@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ianwalter/eslint-config#readme",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js test/test.js test/fixtures/pass.js",
+    "lint": "eslint index.js tests/tests.js tests/fixtures/pass.js",
     "test": "bff"
   },
   "files": [
