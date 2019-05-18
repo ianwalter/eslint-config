@@ -20,7 +20,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js test/test.js test/fixtures/pass.js",
-    "test": "ava"
+    "test": "bff"
   },
   "files": [
     "index.js",
@@ -36,8 +36,8 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
+    "@ianwalter/bff": "^5.0.0",
     "@ianwalter/renovate-config": "^1.1.0",
-    "ava": "^1.4.1",
     "np": "^5.0.1"
   },
   "renovate": {
