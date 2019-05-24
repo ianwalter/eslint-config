@@ -9,6 +9,7 @@
       "error",
       {
         "tabWidth": 2,
+        "ignoreUrls": true,
         "ignoreRegExpLiterals": true
       }
     ]
