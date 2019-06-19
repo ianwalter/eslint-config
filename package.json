@@ -36,7 +36,7 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^6.0.1",
+    "@ianwalter/bff": "^6.1.0",
     "@ianwalter/renovate-config": "^1.1.0",
     "np": "^5.0.3"
   },
