@@ -12,6 +12,7 @@
         "ignoreUrls": true,
         "ignoreRegExpLiterals": true
       }
-    ]
+    ],
+    "require-atomic-updates": 0
   }
 }
