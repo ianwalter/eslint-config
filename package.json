@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/eslint-config",
-  "description": "Ian's ESLint configuration",
+  "description": "Ian's ESLint configuration based on Standard",
   "version": "3.0.0",
   "repository": {
     "type": "git",
