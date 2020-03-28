@@ -1,7 +1,7 @@
 {
   "name": "@ianwalter/eslint-config",
   "description": "Ian's ESLint configuration based on Standard",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ianwalter/eslint-config.git"
