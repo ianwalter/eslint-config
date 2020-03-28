@@ -28,6 +28,8 @@ In `package.json`:
   React and Preact
 * [`@ianwalter/eslint-config-vue`][vueUrl] - Ian's ESLint configuration for
   Vue.js
+* [`@ianwalter/eslint-config-svelte`][svelteUrl] - Ian's ESLint configuration for
+  Svelte
 
 ## License
 
@@ -43,4 +45,5 @@ Created by [Ian Walter](https://ianwalter.dev)
 [npmUrl]: https://www.npmjs.com/package/@ianwalter/eslint-config
 [reactUrl]: https://github.com/ianwalter/eslint-config-react
 [vueUrl]: https://github.com/ianwalter/eslint-config-vue
+[svelteUrl]: https://github.com/ianwalter/eslint-config-svelte
 [licenseUrl]: https://github.com/ianwalter/eslint-config/blob/master/LICENSE
