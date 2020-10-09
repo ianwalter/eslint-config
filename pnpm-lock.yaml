@@ -1,11 +1,11 @@
 dependencies:
-  eslint: 7.10.0
-  eslint-config-standard: 14.1.1_08da9b53e309707c5ed7772f95882d79
+  eslint: 7.11.0
+  eslint-config-standard: 14.1.1_7b9f2890a5c3fd6c4ecd95ae2a6099a8
   eslint-plugin-html: 6.1.0
-  eslint-plugin-import: 2.22.1_eslint@7.10.0
-  eslint-plugin-node: 11.1.0_eslint@7.10.0
+  eslint-plugin-import: 2.22.1_eslint@7.11.0
+  eslint-plugin-node: 11.1.0_eslint@7.11.0
   eslint-plugin-promise: 4.2.1
-  eslint-plugin-standard: 4.0.1_eslint@7.10.0
+  eslint-plugin-standard: 4.0.1_eslint@7.11.0
 devDependencies:
   '@changesets/cli': 2.11.0
   '@ianwalter/bff': 9.10.0
@@ -1388,13 +1388,13 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
-  /eslint-config-standard/14.1.1_08da9b53e309707c5ed7772f95882d79:
+  /eslint-config-standard/14.1.1_7b9f2890a5c3fd6c4ecd95ae2a6099a8:
     dependencies:
-      eslint: 7.10.0
-      eslint-plugin-import: 2.22.1_eslint@7.10.0
-      eslint-plugin-node: 11.1.0_eslint@7.10.0
+      eslint: 7.11.0
+      eslint-plugin-import: 2.22.1_eslint@7.11.0
+      eslint-plugin-node: 11.1.0_eslint@7.11.0
       eslint-plugin-promise: 4.2.1
-      eslint-plugin-standard: 4.0.1_eslint@7.10.0
+      eslint-plugin-standard: 4.0.1_eslint@7.11.0
     dev: false
     peerDependencies:
       eslint: '>=6.2.2'
@@ -1420,9 +1420,9 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-6j9xxegbqe8/kZY8cYpcp0xhbK0EgJlg3g9mib3/miLaExuuwc3n5UEfSnU6hWMbT0FAYVvDbL9RrRgpUeQIvA==
-  /eslint-plugin-es/3.0.1_eslint@7.10.0:
+  /eslint-plugin-es/3.0.1_eslint@7.11.0:
     dependencies:
-      eslint: 7.10.0
+      eslint: 7.11.0
       eslint-utils: 2.1.0
       regexpp: 3.1.0
     dev: false
@@ -1438,14 +1438,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-xcqithhnjUxoEDRL0hYci4RSS8EZ1NGr3/H8x3BxJvxgbu4R3YaEUea9i93j95NuAgoAbOUfNmybta8fqi4UbA==
-  /eslint-plugin-import/2.22.1_eslint@7.10.0:
+  /eslint-plugin-import/2.22.1_eslint@7.11.0:
     dependencies:
       array-includes: 3.1.1
       array.prototype.flat: 1.2.3
       contains-path: 0.1.0
       debug: 2.6.9
       doctrine: 1.5.0
-      eslint: 7.10.0
+      eslint: 7.11.0
       eslint-import-resolver-node: 0.3.4
       eslint-module-utils: 2.6.0
       has: 1.0.3
@@ -1461,10 +1461,10 @@ packages:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
     resolution:
       integrity: sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
-  /eslint-plugin-node/11.1.0_eslint@7.10.0:
+  /eslint-plugin-node/11.1.0_eslint@7.11.0:
     dependencies:
-      eslint: 7.10.0
-      eslint-plugin-es: 3.0.1_eslint@7.10.0
+      eslint: 7.11.0
+      eslint-plugin-es: 3.0.1_eslint@7.11.0
       eslint-utils: 2.1.0
       ignore: 5.1.8
       minimatch: 3.0.4
@@ -1483,9 +1483,9 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
-  /eslint-plugin-standard/4.0.1_eslint@7.10.0:
+  /eslint-plugin-standard/4.0.1_eslint@7.11.0:
     dependencies:
-      eslint: 7.10.0
+      eslint: 7.11.0
     dev: false
     peerDependencies:
       eslint: '>=5.0.0'
@@ -1514,7 +1514,13 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==
-  /eslint/7.10.0:
+  /eslint-visitor-keys/2.0.0:
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
+  /eslint/7.11.0:
     dependencies:
       '@babel/code-frame': 7.10.4
       '@eslint/eslintrc': 0.1.3
@@ -1526,7 +1532,7 @@ packages:
       enquirer: 2.3.6
       eslint-scope: 5.1.1
       eslint-utils: 2.1.0
-      eslint-visitor-keys: 1.3.0
+      eslint-visitor-keys: 2.0.0
       espree: 7.3.0
       esquery: 1.3.1
       esutils: 2.0.3
@@ -1558,7 +1564,7 @@ packages:
       node: ^10.12.0 || >=12.0.0
     hasBin: true
     resolution:
-      integrity: sha512-BDVffmqWl7JJXqCjAK6lWtcQThZB/aP1HXSH1JKwGwv0LQEdvpR7qzNrUT487RM39B5goWuboFad5ovMBmD8yA==
+      integrity: sha512-G9+qtYVCHaDi1ZuWzBsOWo2wSwd70TXnU6UHA3cTYHp7gCTXZcpggWFoUVAMRarg68qtPoNfFbzPh+VdOgmwmw==
   /espree/7.3.0:
     dependencies:
       acorn: 7.4.1
@@ -4262,7 +4268,7 @@ specifiers:
   '@changesets/cli': ^2.11.0
   '@ianwalter/bff': ^9.10.0
   '@ianwalter/renovate-config': ^1.4.0
-  eslint: ^7.10.0
+  eslint: ^7.11.0
   eslint-config-standard: ^14.1.1
   eslint-plugin-html: ^6.1.0
   eslint-plugin-import: ^2.22.1
