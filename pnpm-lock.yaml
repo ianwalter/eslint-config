@@ -3916,7 +3916,7 @@ specifiers:
   '@ianwalter/bff': ^9.10.0
   '@ianwalter/release': ^5.0.2
   '@ianwalter/renovate-config': ^1.4.0
-  eslint: ^7.4.0
+  eslint: ^7.10.0
   eslint-config-standard: ^14.1.1
   eslint-plugin-html: ^6.1.0
   eslint-plugin-import: ^2.22.1
