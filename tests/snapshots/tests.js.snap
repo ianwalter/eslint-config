@@ -92,6 +92,8 @@ Object {
     },
     Object {
       "column": 1,
+      "endColumn": 87,
+      "endLine": 8,
       "line": 8,
       "message": "This line has a length of 86. Maximum allowed is 80.",
       "messageId": "max",
