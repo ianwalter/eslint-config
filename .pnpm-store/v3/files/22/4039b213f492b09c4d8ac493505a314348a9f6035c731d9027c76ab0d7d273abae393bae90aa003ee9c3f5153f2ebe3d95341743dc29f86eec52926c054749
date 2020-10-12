@@ -1,0 +1,50 @@
+{
+  "name": "patrun",
+  "version": "3.0.0",
+  "description": "A fast pattern matcher on JavaScript object properties.",
+  "homepage": "https://github.com/rjrodger/patrun",
+  "keywords": [
+    "pattern",
+    "matcher",
+    "object",
+    "property",
+    "json"
+  ],
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjrodger/patrun.git"
+  },
+  "main": "patrun.js",
+  "scripts": {
+    "test": "lab -v -L -P test -t 90 -r console -o stdout -r html -o test/coverage.html",
+    "coveralls": "lab -s -P test -r lcov -I URL,URLSearchParams | coveralls",
+    "prettier": "prettier --write --no-semi --single-quote patrun.js lib/*.js test/*.js",
+    "clean": "rm -rf node_modules yarn.lock package-lock.json",
+    "reset": "npm run clean && npm i && npm test",
+    "repo-tag": "REPO_VERSION=`node -e \"console.log(require('./package').version)\"` && echo TAG: v$REPO_VERSION && git commit -a -m v$REPO_VERSION && git push && git tag v$REPO_VERSION && git push --tags;",
+    "repo-publish": "npm run prettier && npm run reset && npm run repo-tag && npm publish --registry http://registry.npmjs.org "
+  },
+  "license": "MIT",
+  "files": [
+    "patrun.js",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "contributors": [
+    "Adrien Becchis (https://github.com/AdrieanKhisbe)"
+  ],
+  "dependencies": {
+    "gex": "^1.0.0"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.1",
+    "@hapi/lab": "^21.0.0",
+    "benchmark": "^2.1.4",
+    "coveralls": "^3.0.9",
+    "prettier": "^1.19.1",
+    "serve": "^11.3.0"
+  }
+}

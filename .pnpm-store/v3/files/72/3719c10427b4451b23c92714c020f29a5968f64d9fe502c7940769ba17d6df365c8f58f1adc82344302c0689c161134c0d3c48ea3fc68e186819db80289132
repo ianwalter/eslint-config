@@ -1,0 +1,10 @@
+function sleep (ms) {
+  const expiration = new Date().getTime() + ms;
+  while (new Date().getTime() < expiration) { /* SLEEP */ }
+}
+
+function asleep (ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+export { asleep, sleep };

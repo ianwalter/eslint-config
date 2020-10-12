@@ -1,0 +1,50 @@
+{
+  "name": "@ianwalter/timer",
+  "description": "A high resolution timer that returns the duration in a format thats easy for humans to understand",
+  "version": "2.0.2",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "bff"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/timer.git"
+  },
+  "keywords": [
+    "timer",
+    "timing",
+    "duration",
+    "high",
+    "resolution",
+    "formatted",
+    "time",
+    "words"
+  ],
+  "bugs": {
+    "url": "https://github.com/ianwalter/timer/issues"
+  },
+  "homepage": "https://github.com/ianwalter/timer#readme",
+  "devDependencies": {
+    "@ianwalter/bff": "^9.8.0",
+    "@ianwalter/eslint-config": "^4.1.0",
+    "@ianwalter/release": "^5.0.0",
+    "@ianwalter/renovate-config": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
+  }
+}

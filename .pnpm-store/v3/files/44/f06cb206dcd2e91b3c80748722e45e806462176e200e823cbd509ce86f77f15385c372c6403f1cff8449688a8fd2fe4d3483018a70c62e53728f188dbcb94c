@@ -1,0 +1,57 @@
+{
+  "name": "@ianwalter/subpub",
+  "version": "3.0.0",
+  "description": "A super-simple JavaScript Subscribe/Publish (pubsub) implementation",
+  "main": "dist/subpub.js",
+  "module": "dist/subpub.m.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "dist",
+    "test": "bff"
+  },
+  "keywords": [
+    "publish",
+    "subscribe",
+    "pubsub",
+    "subscriptions",
+    "topics",
+    "channels",
+    "events",
+    "pattern-matching"
+  ],
+  "author": {
+    "name": "Ian Walter",
+    "url": "https://ianwalter.dev"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "patrun": "^3.0.0"
+  },
+  "devDependencies": {
+    "@ianwalter/bff": "^9.8.0",
+    "@ianwalter/dist": "^6.0.0",
+    "@ianwalter/eslint-config": "^4.1.0",
+    "@ianwalter/release": "^5.0.0",
+    "@ianwalter/renovate-config": "^1.3.0"
+  },
+  "browserslist": [
+    "> 0.5%"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter"
+    ]
+  },
+  "eslintIgnore": [
+    "dist"
+  ],
+  "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
+  }
+}
