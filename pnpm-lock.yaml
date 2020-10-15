@@ -8,7 +8,7 @@ dependencies:
   eslint-plugin-standard: 4.0.1_eslint@7.10.0
 devDependencies:
   '@changesets/cli': 2.11.0
-  '@ianwalter/bff': 9.10.0
+  '@ianwalter/bff': 9.11.0
   '@ianwalter/renovate-config': 1.4.0
 lockfileVersion: 5.1
 packages:
@@ -244,7 +244,7 @@ packages:
       node: ^10.12.0 || >=12.0.0
     resolution:
       integrity: sha512-4YVwPkANLeNtRjMekzux1ci8hIaH5eGKktGqR0d3LWsKNn5B2X/1Z6Trxy7jQXl9EBGE6Yj02O+t09FMeRllaA==
-  /@ianwalter/bff/9.10.0:
+  /@ianwalter/bff/9.11.0:
     dependencies:
       '@ianwalter/cli': 4.1.0
       '@ianwalter/clone': 6.0.1
@@ -257,16 +257,16 @@ packages:
       callsites: 3.1.0
       camaro: 6.0.4
       common-tags: 1.8.0
-      expect: 26.5.2
+      expect: 26.5.3
       globby: 11.0.1
-      jest-snapshot: 26.5.2
+      jest-snapshot: 26.5.3
       junit-report-builder: 2.1.0
       p-series: 2.1.0
       workerpool: 6.0.2
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-8D0oYIgpCJK6tLsEqPcRvuwma7+3NrLmVWvvhFcRXGX/SEe6U7P05Zt6NRtRhgEyY3ZPK4pXYPjs4uQ8wRDMGA==
+      integrity: sha512-qTQeFtEdJskIoBi6C5uJ+LNPl4e6H8YUkS1ByN4IU3fi5IuCGX0Iu6oIM4pYgqXJ8Z1sTzMhT5eDeMXwMJ45EA==
   /@ianwalter/chromafi/1.0.1:
     dependencies:
       ansi-mark: 1.0.4
@@ -1659,7 +1659,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-t3c14xXOMPa27/D4OwQVGiJEliI=
-  /expect/26.5.2:
+  /expect/26.5.3:
     dependencies:
       '@jest/types': 26.5.2
       ansi-styles: 4.3.0
@@ -1671,7 +1671,7 @@ packages:
     engines:
       node: '>= 10.14.2'
     resolution:
-      integrity: sha512-ccTGrXZd8DZCcvCz4htGXTkd/LOoy6OEtiDS38x3/VVf6E4AQL0QoeksBiw7BtGR5xDNiRYPB8GN6pfbuTOi7w==
+      integrity: sha512-kkpOhGRWGOr+TEFUnYAjfGvv35bfP+OlPtqPIJpOCR9DVtv8QV+p8zG0Edqafh80fsjeE+7RBcVUq1xApnYglw==
   /extend-shallow/2.0.1:
     dependencies:
       is-extendable: 0.1.1
@@ -2464,14 +2464,14 @@ packages:
       node: '>= 10.14.2'
     resolution:
       integrity: sha512-+h3Gf5CDRlSLdgTv7y0vPIAoLgX/SI7T4v6hy+TEXMgYbv+ztzbg5PSN6mUXAT/hXYHvZRWm+MaObVfqkhCGxA==
-  /jest-snapshot/26.5.2:
+  /jest-snapshot/26.5.3:
     dependencies:
       '@babel/types': 7.11.5
       '@jest/types': 26.5.2
       '@types/babel__traverse': 7.0.15
       '@types/prettier': 2.1.1
       chalk: 4.1.0
-      expect: 26.5.2
+      expect: 26.5.3
       graceful-fs: 4.2.4
       jest-diff: 26.5.2
       jest-get-type: 26.3.0
@@ -2486,7 +2486,7 @@ packages:
     engines:
       node: '>= 10.14.2'
     resolution:
-      integrity: sha512-MkXIDvEefzDubI/WaDVSRH4xnkuirP/Pz8LhAIDXcVQTmcEfwxywj5LGwBmhz+kAAIldA7XM4l96vbpzltSjqg==
+      integrity: sha512-ZgAk0Wm0JJ75WS4lGaeRfa0zIgpL0KD595+XmtwlIEMe8j4FaYHyZhP1LNOO+8fXq7HJ3hll54+sFV9X4+CGVw==
   /jest-util/26.5.2:
     dependencies:
       '@jest/types': 26.5.2
@@ -4260,7 +4260,7 @@ packages:
       integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
 specifiers:
   '@changesets/cli': ^2.11.0
-  '@ianwalter/bff': ^9.10.0
+  '@ianwalter/bff': ^9.11.0
   '@ianwalter/renovate-config': ^1.4.0
   eslint: ^7.10.0
   eslint-config-standard: ^14.1.1
