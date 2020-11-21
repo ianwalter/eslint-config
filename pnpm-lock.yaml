@@ -1,7 +1,7 @@
 dependencies:
   eslint: 7.14.0
   eslint-config-standard: 16.0.2_7bea054c5749eecfd6aed0d188d7fbf5
-  eslint-plugin-html: 6.1.0
+  eslint-plugin-html: 6.1.1
   eslint-plugin-import: 2.22.1_eslint@7.14.0
   eslint-plugin-node: 11.1.0_eslint@7.14.0
   eslint-plugin-promise: 4.2.1
@@ -1517,12 +1517,12 @@ packages:
       eslint: '>=4.19.1'
     resolution:
       integrity: sha512-GUmAsJaN4Fc7Gbtl8uOBlayo2DqhwWvEzykMHSCZHU3XdJ+NSzzZcVhXh3VxX5icqQ+oQdIEawXX8xkR3mIFmQ==
-  /eslint-plugin-html/6.1.0:
+  /eslint-plugin-html/6.1.1:
     dependencies:
-      htmlparser2: 4.1.0
+      htmlparser2: 5.0.1
     dev: false
     resolution:
-      integrity: sha512-xcqithhnjUxoEDRL0hYci4RSS8EZ1NGr3/H8x3BxJvxgbu4R3YaEUea9i93j95NuAgoAbOUfNmybta8fqi4UbA==
+      integrity: sha512-JSe3ZDb7feKMnQM27XWGeoIjvP4oWQMJD9GZ6wW67J7/plVL87NK72RBwlvfc3tTZiYUchHhxAwtgEd1GdofDA==
   /eslint-plugin-import/2.22.1_eslint@7.14.0:
     dependencies:
       array-includes: 3.1.1
@@ -2172,7 +2172,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==
-  /htmlparser2/4.1.0:
+  /htmlparser2/5.0.1:
     dependencies:
       domelementtype: 2.0.2
       domhandler: 3.3.0
@@ -2180,7 +2180,7 @@ packages:
       entities: 2.0.3
     dev: false
     resolution:
-      integrity: sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q==
+      integrity: sha512-vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==
   /human-id/1.0.2:
     dev: true
     resolution:
@@ -4316,7 +4316,7 @@ specifiers:
   '@ianwalter/renovate-config': ^1.4.2
   eslint: ^7.14.0
   eslint-config-standard: ^16.0.2
-  eslint-plugin-html: ^6.1.0
+  eslint-plugin-html: ^6.1.1
   eslint-plugin-import: ^2.22.1
   eslint-plugin-node: ^11.1.0
   eslint-plugin-promise: ^4.2.1
