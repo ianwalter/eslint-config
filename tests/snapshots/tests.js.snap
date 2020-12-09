@@ -2,7 +2,7 @@
 
 exports[`fail 1`] = `
 Object {
-  "errorCount": 10,
+  "errorCount": 9,
   "filePath": StringContaining "tests/fixtures/fail.js",
   "fixableErrorCount": 6,
   "fixableWarningCount": 0,
@@ -99,7 +99,7 @@ Object {
       "messageId": "max",
       "nodeType": "Program",
       "ruleId": "max-len",
-      "severity": 2,
+      "severity": 1,
     },
     Object {
       "column": 2,
@@ -178,7 +178,7 @@ function a_space () {
 
 export { greeting, a_space }
 ",
-  "warningCount": 0,
+  "warningCount": 1,
 }
 `;
 
