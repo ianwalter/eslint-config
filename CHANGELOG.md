@@ -1,5 +1,12 @@
 # @ianwalter/eslint-config
 
+## 6.1.0
+
+### Minor Changes
+
+- 7f627f2: Removing no-console rule since it is not an error anymore
+- 08a805f: Change max-len to be a warning instead of error
+
 ## 6.0.0
 
 ### Major Changes
