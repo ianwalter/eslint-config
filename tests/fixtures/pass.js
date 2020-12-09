@@ -20,7 +20,8 @@ function long () {
   ]
 }
 
-function aSpace () {
+function aSpace (thing) {
+  console.log('Thing:', thing)
   return ' '
 }
 
