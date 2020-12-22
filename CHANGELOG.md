@@ -1,5 +1,11 @@
 # @ianwalter/eslint-config
 
+## 6.2.0
+
+### Minor Changes
+
+- e6e5a4c: Update dependency eslint to ^7.16.0
+
 ## 6.1.0
 
 ### Minor Changes
