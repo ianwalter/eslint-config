@@ -9,7 +9,7 @@ dependencies:
 devDependencies:
   '@changesets/cli': 2.14.1
   '@ianwalter/bff': 9.13.0
-  '@ianwalter/renovate-config': 1.4.3
+  '@ianwalter/renovate-config': 1.4.4
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
@@ -567,10 +567,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-YkkUv/Bnwzu0qNqj3BCo1ZP19wk2kkYXYhFvgKGZqVpELRHEwOzo5pD4KszwhjvMUNiBOLYqOZO8C3OCx5+cXA==
-  /@ianwalter/renovate-config/1.4.3:
+  /@ianwalter/renovate-config/1.4.4:
     dev: true
     resolution:
-      integrity: sha512-61InLaz89GLb3iTcRSL2Z+WtYnEIfzWJ7gy+R8ascdsRpARU8qwkBqmq6euw8OPxfHNbqtqEAiG1ljckFjVwsQ==
+      integrity: sha512-LJRn/jAwIrUWfH5gwibOsUVQeXJVnPhoML0Yybx4xKvowyIKY2nwzvXvR1xPa2zK4EH+EW7WeQ/+Z1vctp67XA==
   /@ianwalter/rollup-plugin-hashbang/1.3.0:
     dependencies:
       magic-string: 0.25.7
@@ -4730,7 +4730,7 @@ packages:
 specifiers:
   '@changesets/cli': ^2.14.1
   '@ianwalter/bff': ^9.13.0
-  '@ianwalter/renovate-config': ^1.4.3
+  '@ianwalter/renovate-config': ^1.4.4
   eslint: ^7.16.0
   eslint-config-standard: ^16.0.2
   eslint-plugin-html: ^6.1.1
