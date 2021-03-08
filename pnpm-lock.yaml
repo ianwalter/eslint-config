@@ -1,7 +1,7 @@
 dependencies:
   eslint: 7.16.0
   eslint-config-standard: 16.0.2_ce5e3637ed62a9bdf0ce5922e3087a10
-  eslint-plugin-html: 6.1.1
+  eslint-plugin-html: 6.1.2
   eslint-plugin-import: 2.22.1_eslint@7.16.0
   eslint-plugin-node: 11.1.0_eslint@7.16.0
   eslint-plugin-promise: 4.2.1
@@ -1518,7 +1518,7 @@ packages:
       integrity: sha512-l0IU0pPzLWSHBcieZbpOKgkIn3ts3vAh7ZuFyXNwJxJXk/c4Gwj9xaTJwIDVQCXawWD0qb3IzMGH5rglQaO0XA==
   /dom-serializer/1.1.0:
     dependencies:
-      domelementtype: 2.0.2
+      domelementtype: 2.1.0
       domhandler: 3.3.0
       entities: 2.0.3
     dev: false
@@ -1532,6 +1532,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-wFwTwCVebUrMgGeAwRL/NhZtHAUyT9n9yg4IMDwf10+6iCMxSkVq9MGCVEH+QZWo1nNidy8kNvwmv4zWHDTqvA==
+  /domelementtype/2.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-LsTgx/L5VpD+Q8lmsXSHW2WpA+eBlZ9HPf3erD1IoPF00/3JKHZ3BknUVA2QGDNu69ZNmyFmCWBSO45XjYKC5w==
   /domhandler/2.4.2:
     dependencies:
       domelementtype: 1.3.1
@@ -1540,12 +1544,20 @@ packages:
       integrity: sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   /domhandler/3.3.0:
     dependencies:
-      domelementtype: 2.0.2
+      domelementtype: 2.1.0
     dev: false
     engines:
       node: '>= 4'
     resolution:
       integrity: sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==
+  /domhandler/4.0.0:
+    dependencies:
+      domelementtype: 2.1.0
+    dev: false
+    engines:
+      node: '>= 4'
+    resolution:
+      integrity: sha512-KPTbnGQ1JeEMQyO1iYXoagsI6so/C96HZiFyByU3T6iAzpXn8EGEvct6unm1ZGoed8ByO2oirxgwxBmqKF9haA==
   /domutils/1.5.1:
     dependencies:
       dom-serializer: 0.1.1
@@ -1560,14 +1572,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==
-  /domutils/2.4.2:
+  /domutils/2.4.4:
     dependencies:
       dom-serializer: 1.1.0
       domelementtype: 2.0.2
-      domhandler: 3.3.0
+      domhandler: 4.0.0
     dev: false
     resolution:
-      integrity: sha512-NKbgaM8ZJOecTZsIzW5gSuplsX2IWW2mIK7xVr8hTQF2v1CJWTmLZ1HOCh5sH+IzVPAGE5IucooOkvwBRAdowA==
+      integrity: sha512-jBC0vOsECI4OMdD0GC9mGn7NXPLb+Qt6KW1YDQzeQYRUFKmNG8lh7mO5HiELfr+lLQE7loDVI4QcAxV80HS+RA==
   /dot-prop/5.3.0:
     dependencies:
       is-obj: 2.0.0
@@ -1705,12 +1717,12 @@ packages:
       eslint: '>=4.19.1'
     resolution:
       integrity: sha512-GUmAsJaN4Fc7Gbtl8uOBlayo2DqhwWvEzykMHSCZHU3XdJ+NSzzZcVhXh3VxX5icqQ+oQdIEawXX8xkR3mIFmQ==
-  /eslint-plugin-html/6.1.1:
+  /eslint-plugin-html/6.1.2:
     dependencies:
-      htmlparser2: 5.0.1
+      htmlparser2: 6.0.1
     dev: false
     resolution:
-      integrity: sha512-JSe3ZDb7feKMnQM27XWGeoIjvP4oWQMJD9GZ6wW67J7/plVL87NK72RBwlvfc3tTZiYUchHhxAwtgEd1GdofDA==
+      integrity: sha512-bhBIRyZFqI4EoF12lGDHAmgfff8eLXx6R52/K3ESQhsxzCzIE6hdebS7Py651f7U3RBotqroUnC3L29bR7qJWQ==
   /eslint-plugin-import/2.22.1_eslint@7.16.0:
     dependencies:
       array-includes: 3.1.1
@@ -2396,15 +2408,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==
-  /htmlparser2/5.0.1:
+  /htmlparser2/6.0.1:
     dependencies:
       domelementtype: 2.0.2
-      domhandler: 3.3.0
-      domutils: 2.4.2
+      domhandler: 4.0.0
+      domutils: 2.4.4
       entities: 2.0.3
     dev: false
     resolution:
-      integrity: sha512-vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==
+      integrity: sha512-GDKPd+vk4jvSuvCbyuzx/unmXkk090Azec7LovXP8as1Hn8q9p3hbjmDGbUqqhknw0ajwit6LiiWqfiTUPMK7w==
   /human-id/1.0.2:
     dev: true
     resolution:
@@ -4733,7 +4745,7 @@ specifiers:
   '@ianwalter/renovate-config': ^1.4.3
   eslint: ^7.16.0
   eslint-config-standard: ^16.0.2
-  eslint-plugin-html: ^6.1.1
+  eslint-plugin-html: ^6.1.2
   eslint-plugin-import: ^2.22.1
   eslint-plugin-node: ^11.1.0
   eslint-plugin-promise: ^4.2.1
