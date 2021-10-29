@@ -5,7 +5,7 @@ specifiers:
   '@ianwalter/bff': ^9.13.0
   '@ianwalter/renovate-config': ^1.4.3
   eslint: ^7.16.0
-  eslint-config-standard: ^16.0.2
+  eslint-config-standard: ^16.0.3
   eslint-plugin-html: ^6.1.1
   eslint-plugin-import: ^2.22.1
   eslint-plugin-node: ^11.1.0
@@ -14,7 +14,7 @@ specifiers:
 
 dependencies:
   eslint: 7.16.0
-  eslint-config-standard: 16.0.2_ce5e3637ed62a9bdf0ce5922e3087a10
+  eslint-config-standard: 16.0.3_ce5e3637ed62a9bdf0ce5922e3087a10
   eslint-plugin-html: 6.1.1
   eslint-plugin-import: 2.22.1_eslint@7.16.0
   eslint-plugin-node: 11.1.0_eslint@7.16.0
@@ -1607,13 +1607,13 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /eslint-config-standard/16.0.2_ce5e3637ed62a9bdf0ce5922e3087a10:
-    resolution: {integrity: sha512-fx3f1rJDsl9bY7qzyX8SAtP8GBSk6MfXFaTfaGgk12aAYW4gJSyRm7dM790L6cbXv63fvjY4XeSzXnb4WM+SKw==}
+  /eslint-config-standard/16.0.3_ce5e3637ed62a9bdf0ce5922e3087a10:
+    resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
     peerDependencies:
       eslint: ^7.12.1
       eslint-plugin-import: ^2.22.1
       eslint-plugin-node: ^11.1.0
-      eslint-plugin-promise: ^4.2.1
+      eslint-plugin-promise: ^4.2.1 || ^5.0.0
     dependencies:
       eslint: 7.16.0
       eslint-plugin-import: 2.22.1_eslint@7.16.0
